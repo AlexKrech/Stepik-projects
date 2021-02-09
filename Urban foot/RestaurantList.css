@@ -1,0 +1,328 @@
+body {
+    margin: 0%;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    position: sticky;
+    top: 0
+}
+
+.navbar-rigth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar-left img {
+    width: 120px;
+}
+
+.navbar .navbar-rigth .sing-in input {
+    width: 78px;
+    margin: 14px 0;
+}
+
+.navbar .navbar-rigth .sing-in input:hover {
+    opacity: 0.5;
+}
+
+.navbar .navbar-rigth .basket input {
+    width: 18px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.navbar .navbar-rigth .basket input:hover {
+    opacity: 0.5;
+}
+
+input {
+    outline: none;
+}
+
+.search input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 52px 0;
+    border-bottom-color: #979494;
+    font-size: 16px;
+}
+
+
+.container h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.Cards {
+    padding-bottom: 80px;
+}
+
+
+
+.Cards .row {
+    flex-wrap: wrap;
+}
+
+.Card img {
+    width: 100%;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+.Card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.Card .RestrantName p {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+}
+
+.Card .Specialisation p {
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: rgba(98, 98, 98, 1);
+}
+
+.Card .ResponseTime p {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+
+footer {
+    background-color: #222222;
+}
+
+footer img {
+    padding: 40px 0;
+}
+
+.mainFooter {
+    border-top: 1px solid white;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+
+.mainFooter select {
+    width: 230px;
+    height: 40px;
+    background-color: #3f3f3f;
+    color: white;
+    background-image: url(stores/world.png);
+    background-position: 16px 12px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    outline: none;
+    background-repeat: no-repeat, repeat;
+    margin: 30px 0;
+}
+
+.mainFooter ul {
+    padding-left: 0%;
+    margin: 0;
+}
+
+.HashTag {
+    color: rgba(73, 161, 68, 1);
+}
+
+.Social p {
+    color: white;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.Social .SocioIcines {
+    display: inline-flex;
+}
+
+.Social .SocioIcines div {
+    padding-bottom: 0;
+    padding-top: 10px;
+    padding-right: 12px;
+}
+
+.Social .SocioIcines img {
+    padding: 0;
+}
+
+.Social .SocioIcines img:hover {
+    opacity: 0.5;
+}
+
+
+.List1 {
+    padding-top: 40px;
+}
+
+
+
+.List1 li,
+.List2 li {
+    color: white;
+    list-style-type: none;
+    padding-bottom: 23px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.List1 a:hover,
+.List2 a:hover {
+    opacity: 0.5;
+}
+
+.List1 a,
+.List2 a {
+    color: white;
+}
+
+.List2 {
+    padding-top: 40px;
+
+}
+
+.referenceToApp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.referenceToApp div {
+    padding: 40px;
+}
+
+.referenceToApp img {
+    padding: 0;
+}
+
+.referenceToApp img:hover {
+    opacity: 0.5;
+}
+
+.end {
+    border-top: 1px solid white;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    align-items: center;
+}
+
+.end a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.end a:hover {
+    opacity: 0.5;
+}
+
+.anchor {
+    width: 80px;
+    height: 80px;
+    background-color: #59BD5A;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    border-radius: 3px;
+}
+
+.anchor:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0%;
+        width: 100%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .mainFooter .List2 {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .referenceToApp {
+        justify-content: space-around;
+    }
+
+    .referenceToApp img {
+        height: 36px;
+        padding: 24px 0;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .basket {
+        display: none;
+    }
+
+    .Card .RestrantName p {
+        font-size: 16px;
+    }
+
+    .Card .Specialisation p {
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(98, 98, 98, 1);
+    }
+
+    .Card .ResponseTime p {
+        font-family: Roboto, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        padding-bottom: 20px;
+        color: #000;
+    }
+
+}
