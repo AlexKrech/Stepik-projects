@@ -1,0 +1,41 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255);
+}
+
+.jumbotron p {
+    max-width: 635px;
+}
+
+
+.table{
+    margin-top: 32px;
+}
+
+.table td{
+color: rgb(0, 123, 255);
+}
+
+footer .container-fluid{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 73px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 720px) {
+
+    .container-fluid {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 960px) {
+
+    .container-fluid {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
